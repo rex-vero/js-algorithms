@@ -15,4 +15,7 @@ switch (despointAndWithdrawal) {
     case 1:
         console.log(`name: ${bankInfo.name} , holding: $${bankInfo.holding} , resort: ${bankInfo.resort} times , withdrawal: $${bankInfo.withdrawal}`);
         break;
+    default:
+        console.log('I said 0 or 1 you idiot >:( ');
+        break;
 }
