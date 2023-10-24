@@ -15,7 +15,3 @@ if (str === '+') {
 } else if (str === '**') {
     console.log('result=', num1 ** num2);
 }
-
-
-
-
