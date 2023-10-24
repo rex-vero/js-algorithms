@@ -2,8 +2,7 @@ let readlineSync = require('readline-sync');
 let number = readlineSync.question('Enter a number: ')
 const sumOfDigits = (number) => {
     let sum = 0;
-    let num = number.toString();
-    for (let digit of num) {
+    for (let digit of number) {
         sum += parseInt(digit)
     }
     return sum;
